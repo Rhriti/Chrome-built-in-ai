@@ -1,0 +1,15 @@
+
+{
+  "manifest_version": 3,
+  "name": "Customize Download Filename",
+  "version": "1.0",
+  "permissions": [
+    "downloads",
+    "activeTab",
+    "http://*/",
+    "https://*/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
