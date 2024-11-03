@@ -5,9 +5,7 @@
   "version": "1.0",
   "permissions": [
     "downloads",
-    "activeTab",
-    "http://*/",
-    "https://*/"
+    "activeTab"
   ],
   "background": {
     "service_worker": "background.js"
